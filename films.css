@@ -1,0 +1,36 @@
+.content-films {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: powderblue;
+    width:1200px;
+    border-radius: 5px;
+    position: relative;
+}
+.content-films img {
+    width: 150px;
+    height: 230px;
+    margin: 10px;
+}
+.content-films div{
+    margin: 10px;
+}
+.btns{
+    position: absolute;
+    bottom: 0;
+}
+.btns buttom{
+    width: 100px;
+    height: 20px;
+    background-color: #4FCE5F;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    margin: 10px;
+}
+.btns buttom:hover{
+    transform: scale(1.2);
+    background-color: forestgreen;
+
+}

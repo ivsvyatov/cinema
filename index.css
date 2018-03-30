@@ -1,0 +1,159 @@
+body {
+    min-width: 1300px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: white;
+}
+
+header {
+    color: #c3c3c3;
+    background-color: #4F86AD;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+footer {
+    color: #c3c3c3;
+    background-color: #4F86AD;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-menu {
+    background-color: white;
+    height: 50px;
+    align-items: stretch;
+
+}
+
+.main-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.main-menu ul li {
+    text-transform: uppercase;
+    width: 150px;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 25%;
+    font-weight: 700;
+}
+
+.main-menu li:hover {
+    background-color: #2B55A8;
+
+}
+
+.main-menu a:hover {
+    color: white;
+}
+
+.account {
+    width: 180px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.account ul li {
+    text-transform: uppercase;
+    width: 150px;
+    height: 100%;
+    position: relative;
+}
+
+.account a {
+    display: block;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    background: #4FCE5F;
+    margin: 5px;
+}
+
+.account a:hover {
+    background: rgb(53, 167, 110);
+}
+
+.account a:active {
+    background: rgb(33, 147, 90);
+}
+
+.account a:first-child {
+    background: #FFB361;
+}
+
+.account a:first-child:hover {
+    background: #FA9D37;
+}
+
+.film-images {
+    width: 500px;
+    height: 714px;
+    margin: 10px;
+}
+.film-images:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+
+}
+
+.btn-arrows {
+    height: 550px;
+    width: 65px;
+    position: relative;
+}
+
+.btn-arrows img:hover {
+    transform: scale(1.2);
+    transition-duration: 500ms;
+}
+
+.btn-arrows a {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+.last{
+    transform:rotate(180deg);
+}
+.footer-social a {
+    width: 50px;
+    height: 50px;
+}
+

@@ -1,0 +1,59 @@
+.schedule{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-wrapper{
+    margin: 20px;
+}
+.days{
+    display: flex;
+    justify-content: space-around;
+}
+.day{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border-bottom: 3px solid #4FCE5F;
+}
+.day:hover{
+    background-color: #4FCE5F;
+    padding: 10px;
+    border-radius: 5px;
+}
+.day:first-child{
+    background-color: #4FCE5F;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.line_of_films {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px  lightskyblue;
+}
+
+.title_of_film{
+    background-color: cornflowerblue;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.session{
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+.session:hover{
+    transform: scale(1.2);
+}
+
+

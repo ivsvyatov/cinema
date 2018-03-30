@@ -1,0 +1,78 @@
+.hall{
+    margin: 20px auto;
+    width:1200px;
+    border-radius: 5px;
+    position: relative;
+}
+.condition_of_hall{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: powderblue;
+    margin: 10px;
+    border-radius: 5px;
+    height: 50px;
+}
+.condition_of_hall div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.places_in_hall{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.hall_wrapper{
+    width: 800px;
+    background-color: powderblue;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.place{
+    width: 60px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+}
+.range{
+    margin: 10px;
+}
+.free{
+    background-color: royalblue;
+}
+.choice{
+    background-color: limegreen;
+}
+.booked{
+    background-color: yellow;
+}
+.bought{
+    background-color: red;
+}
+.place:hover{
+    transform: scale(1.2);
+}
+.btn_hall button{
+    width: 150px;
+    height: 50px;
+    background-color: #4FCE5F;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    margin: 10px;
+    text-align: center;
+}
+.btn_hall{
+    text-align: center;
+}
+.footer{
+    flex: 0 0 auto;
+}
