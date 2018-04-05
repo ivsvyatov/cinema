@@ -1,0 +1,43 @@
+.reg-form{
+    width: 500px;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: powderblue;
+    position: relative;
+}
+.reg-form div:not(.btn-reg){
+    margin-top: 10px;
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #cecece;
+    background: lightskyblue;
+    border-radius: 8px;
+}
+input:focus{
+    background-color: white;
+    border-radius: 0;
+}
+.btn-reg, h1{
+    margin: 30px;
+    text-align: center;
+}
+.btn-reg a{
+    text-decoration:none;
+    height: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+}
+.btn-reg a{
+    background-color: #4FCE5F;
+}
+.btn-reg a{
+    background-color: forestgreen;
+}

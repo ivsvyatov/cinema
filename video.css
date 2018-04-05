@@ -1,0 +1,23 @@
+video{
+    width: 400px;
+    height:300px;
+
+}
+.btn-video a{
+    text-decoration:none;
+    background-color: #4FCE5F;
+    height: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+}
+.btn-video a:hover{
+    background-color: forestgreen;
+}
+.btn-video{
+    margin: 30px;
+}
+.video-conteiner{
+    text-align: center;
+}
